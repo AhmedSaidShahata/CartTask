@@ -94,6 +94,7 @@ export default {
 body {
   background: #e2e2e2;
 }
+
 #app{
   overflow-x:hidden;
 }
