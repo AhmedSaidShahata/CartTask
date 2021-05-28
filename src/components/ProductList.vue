@@ -90,8 +90,12 @@ export default {
 </script>
 
 <style>
+
 body {
   background: #e2e2e2;
+}
+#app{
+  overflow-x:hidden;
 }
 .card {
   height: 400px;
