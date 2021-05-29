@@ -1,10 +1,10 @@
 <template>
   <div class="py-5">
-    <div class="header-products d-flex justify-content-between">
-      <div>
+    <div class="header-products row justify-content-between">
+      <div class="col-md-7 px-0">
         <p class="deal font-weight-bolder">Today's Best Deal</p>
       </div>
-      <div class="d-flex  filter justify-content-between ">
+      <div class="d-flex col-md-5 px-0  filter justify-content-between ">
         <p class="mx-3 active">
           Featured
         </p>
@@ -88,10 +88,8 @@ export default {
 
       let rectImg = productImage.getBoundingClientRect();
       let scrollLeft =
-          window.pageXOffset || document.documentElement.scrollLeft,
-        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      let ImageTop = rectImg.top + scrollTop;
-      console.log(ImageTop);
+        window.pageXOffset || document.documentElement.scrollLeft;
+
       let ImageLeft = rectImg.left + scrollLeft;
 
       productImage.style.top = 300 + "px";
@@ -152,8 +150,8 @@ export default {
   transition: all 1s;
 }
 
-.card .price{
-  font-size:18px
+.card .price {
+  font-size: 18px;
 }
 .card .category {
   position: absolute;
@@ -174,7 +172,7 @@ export default {
 .card .link:hover {
   text-decoration: none;
 }
-.card .rate{
+.card .rate {
   color: orange;
 }
 .card .cart-btn {
@@ -206,5 +204,15 @@ export default {
   height: 50px !important;
   bottom: 0;
   z-index: 2;
+}
+
+@media (max-width: 991px) {
+  .deal::after {
+    content: "";
+    display: none;
+  }
+  .deal {
+    padding: 0 10px;
+  }
 }
 </style>

@@ -8,7 +8,7 @@
             src="https://image.pngaaa.com/579/811579-small.png"
           />
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 d-none d-md-block ">
           <form class="form-inline my-2 my-lg-0">
             <div class="form-group col-md-2 p-0">
               <select id="inputState" class="cat form-control w-100">
@@ -57,7 +57,7 @@
       </div>
     </nav>
     <nav class="navbar navbar2 navbar-expand bg-white py-2">
-      <div class="container-fluid px-5">
+      <div class="container-fluid px-1 px-md-5">
         <div class="nav navbar-nav">
           <router-link
             to="/"
@@ -69,9 +69,7 @@
             class="nav nav-item nav-link border-right text-dark"
             >checkout</router-link
           >
-          <router-link to="/checkout" class="nav nav-item nav-link text-dark"
-            >wishlist</router-link
-          >
+         
         </div>
         <div>
           <div></div>

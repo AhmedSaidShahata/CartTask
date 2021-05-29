@@ -1,6 +1,7 @@
 <template>
 
   <div id="app">
+      <preloader />
     <app-header />
     <div>
       <router-view></router-view>
@@ -12,13 +13,15 @@
 <script>
 import AppHeader from "./components/AppHeader";
 import AppFooter from "./components/AppFooter";
+import Preloader from "./components/Preloader";
 
 
 export default {
   name: "app",
   components: {
     AppHeader,
-    AppFooter
+    AppFooter,
+    Preloader
   },
 };
 </script>
