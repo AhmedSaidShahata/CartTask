@@ -4,13 +4,13 @@
     <div class="hello ">
       <img src="/img/home2.jpg" alt="" />
       <div
-        class="overlayer d-flex flex-column justify-content-center align-items-center "
+        class="overlayer d-flex flex-column justify-content-center align-items-center align-content-center text-center "
       >
         <div class="over-layer">
           <p>Special Diccount</p>
           <p>Find High Quality</p>
           <p class="font-weight-bold">
-            For Furniture
+            For Fashion
           </p>
           <button class="btn add-cart">
             Add to cart
@@ -129,8 +129,6 @@
         View More
       </button>
     </div>
-
-    
   </div>
 </template>
 
@@ -138,7 +136,7 @@
 import ProductList from "../components/ProductList";
 
 export default {
-  components: { ProductList},
+  components: { ProductList },
 };
 </script>
 <style scoped>
@@ -156,7 +154,7 @@ export default {
   font-size: 30px;
   background: var(--main-color);
   color: black;
-  padding: 6px 53px 10px 7px;
+  padding: 5px 53px 10px 54px;
 }
 
 .hello p:nth-child(3) {
@@ -182,7 +180,8 @@ export default {
 .hello .over-layer {
   background: rgba(0, 0, 0, 0.6);
   border-radius: 20px;
-  padding: 30px 80px;
+  padding: 52px 153px;
+  box-shadow: 0 0 10px black;
 }
 .hello .add-cart {
   background: var(--main-color);

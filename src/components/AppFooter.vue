@@ -81,8 +81,10 @@ h2::after{
 }
 footer{
     padding: 40px 10px;
-    /* background: #e2e2e2;
+    /* background: #273649; */
+/*     
     color:var(--main-color); */
+    
 }
 
 footer h3{
