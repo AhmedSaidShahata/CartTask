@@ -51,4 +51,23 @@ h2::after{
   border-radius: 20px;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #273649;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+
 </style>

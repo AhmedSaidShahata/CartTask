@@ -66,6 +66,13 @@
 .hello .add-cart {
   background: var(--main-color);
 }
+
+
+@media (max-width: 767px) {
+  .hello .over-layer {
+    padding: 52px 28px;
+  }
+}
 @keyframes animation_image {
   0% {
     transform-origin: bottom;

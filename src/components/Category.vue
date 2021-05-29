@@ -41,11 +41,11 @@
 </template>
 
 <style>
+
 .categories {
   padding: 50px 0;
   background: linear-gradient(-45deg, white 87%, var(--main-color) 35%);
   border-top: 70px solid var(--main-color);
-  
 }
 
 .categories img {
@@ -54,35 +54,36 @@
   transition: all 1s;
 }
 
-
 .categories .man,
-.categories .woman ,
+.categories .woman,
 .categories .children {
   position: relative;
   overflow: hidden;
   border: 2px solid white;
   cursor: pointer;
+   box-shadow:  2px 2px 10px black;
+   margin: 10px !important; 
 }
 
 .categories h2 {
   color: var(--main-color);
   font-size: 40px;
   font-weight: bolder;
-   text-shadow:  1px 1px 1px red , 1px 1px 1px blue, 2px 2px 2px black , -2px -2px 2px white;
+  text-shadow: 1px 1px 1px red, 1px 1px 1px blue, 2px 2px 2px black,
+    -2px -2px 2px white;
 }
 .categories h2::after {
- content: '';
-width: 130px;
+  content: "";
+  width: 130px;
 }
 
-.categories  h2 span {
-  color:black;
+.categories h2 span {
+  color: black;
 }
 
-.categories .ct:hover img{
-transform: scale(1.2);
+.categories .ct:hover img {
+  transform: scale(1.3) rotate(5deg);
 }
-
 
 .categories .overlay-cat {
   position: absolute;
@@ -91,9 +92,17 @@ transform: scale(1.2);
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
+  color: var(--main-color);
   color: white;
-  font-size: 40px;
+  text-shadow: 1px 1px 1px red, 1px 1px 1px blue, 2px 2px 2px black,
+    -2px -2px 2px black;
+  font-size: 50px;
+  letter-spacing: 7px;
   font-weight: bolder;
   border: 4px solid var(--main-color);
+  font-family: "Pattaya", sans-serif;
+  box-shadow: 1px 1px 1px red, 1px 1px 1px blue, 2px 2px 2px black,
+    -2px -2px 2px black;
 }
+
 </style>
