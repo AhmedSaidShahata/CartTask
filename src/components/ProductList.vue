@@ -162,7 +162,6 @@ export default {
 .card {
   height: 400px;
   box-shadow: 0 0 10px #e4e4e4;
-  animation: scaling 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transition: all 1s;
 }
 

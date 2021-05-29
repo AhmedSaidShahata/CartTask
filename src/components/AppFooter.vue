@@ -59,15 +59,13 @@
         </div>
       </div>
       <div class="copyright mt-5">
-        <p>Copyright &copy; 2020 Made By <span>Ahmed Said</span></p>
+        <p>Copyright &copy; 2021 Made By <span>Ahmed Said</span></p>
       </div>
     </div>
   </footer>
 </template>
 
-<script>
-
-</script>
+<script></script>
 
 <style scoped>
 /* start footer */
@@ -79,9 +77,6 @@ h2::after {
 }
 footer {
   padding: 40px 10px;
-  /* background: #273649; */
-      
-    /* color:var(--main-color); */
 }
 
 footer h3 {
@@ -101,6 +96,6 @@ footer .copyright p span {
   font-size: 24px;
   color: var(--main-color);
   font-weight: 1000;
-  /* text-shadow: 6px 6px 10px red, -6px -6px 10px blue, 8px 8px 10px black , -8px -8px 10px black; */
+  text-shadow:  2px 2px 10px black , -2px -2px 10px black;
 }
 </style>
