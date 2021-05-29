@@ -1,67 +1,71 @@
 <template>
-  <div class="py-5">
-    <div class="header-products row justify-content-between">
-      <div class="col-md-7 px-0">
-        <p class="deal font-weight-bolder">Today's Best Deal</p>
+  <div class="py-5 products">
+    <div class="container">
+      <div class="header-products row justify-content-between">
+        <div class="col-md-7 px-0">
+          <p class="deal font-weight-bolder">Today's Best Deal</p>
+        </div>
+        <div class="d-flex col-md-5 px-0  filter justify-content-between ">
+          <p class="mx-3 active">
+            Featured
+          </p>
+          <p class="mx-3">
+            Best Seller
+          </p>
+          <p class="mx-3">
+            Special
+          </p>
+          <p class="mx-3">
+            Latest
+          </p>
+        </div>
       </div>
-      <div class="d-flex col-md-5 px-0  filter justify-content-between ">
-        <p class="mx-3 active">
-          Featured
-        </p>
-        <p class="mx-3">
-          Best Seller
-        </p>
-        <p class="mx-3">
-          Special
-        </p>
-        <p class="mx-3">
-          Latest
-        </p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div
-        class="col-xl-3 col-lg-4 col-sm-6 col-9 mt-4"
-        v-for="(product, index) in products"
-        :key="product.id"
-      >
-        <div class="card text-left" ref="myCard">
-          <span class="category">
-            {{ product.category }}
-          </span>
-          <router-link
-            class="link"
-            :to="{ name: 'product', params: { id: product.id } }"
-          >
-            <img class="w-100" :src="product.image" alt="product image" />
-          </router-link>
-
-          <div class="card-body">
-            <h5 class="card-title">{{ product.title.substring(0, 20) }}...</h5>
-            <strong class="price">${{ product.price }}.00 </strong>
-
-            <span class="old-price">
-              $200.00
+      <div class="row justify-content-center">
+        <div
+          class="col-xl-3 col-lg-4 col-sm-6 col-9 mt-4"
+          v-for="(product, index) in products"
+          :key="product.id"
+        >
+          <div class="card text-left" ref="myCard">
+            <span class="category">
+              {{ product.category }}
             </span>
-            <div class="rate">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
-              <i class="far fa-star"></i>
-            </div>
-            <p class="card-text">
-              {{ product.description.substring(0, 50) }}...
-            </p>
-          </div>
-
-          <div class="px-4 pb-3">
-            <button
-              class="btn btn-success cart-btn btn-block border-0"
-              @click="addToCart(product, index)"
+            <router-link
+              class="link"
+              :to="{ name: 'product', params: { id: product.id } }"
             >
-              <i class="fas fa-cart-plus"></i> Add to Cart
-            </button>
+              <img class="w-100" :src="product.image" alt="product image" />
+            </router-link>
+
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ product.title.substring(0, 20) }}...
+              </h5>
+              <strong class="price">${{ product.price }}.00 </strong>
+
+              <span class="old-price">
+                $200.00
+              </span>
+              <div class="rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="card-text">
+                {{ product.description.substring(0, 50) }}...
+              </p>
+            </div>
+
+            <div class="px-4 pb-3">
+              <button
+                class="btn btn-success cart-btn btn-block border-0"
+                @click="addToCart(product, index)"
+              >
+                <i class="fas fa-cart-plus"></i> Add to Cart
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -118,6 +122,12 @@ export default {
 </script>
 
 <style>
+.products {
+  /* background: linear-gradient(-45deg, #273649 60%, var(--main-color) 40%);
+  border-top: 70px solid var(--main-color);
+  border-bottom: 70px solid var(--main-color); */
+}
+
 .header-products {
   border-bottom: 3px solid #e5e5e5;
 }

@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="my-2">
-            <h2 class="my-5">E-commerce</h2>
+            <h2 class="my-3">E-commerce</h2>
           </div>
           <div class="my-2">
             <h3>About Us</h3>
@@ -27,7 +27,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="footer_info">
-            <h2 class="my-5">Information</h2>
+            <h2 class="my-3">Information</h2>
             <ul class="list-unstyled">
               <li>About Us</li>
               <li>More Search</li>
@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <h2 class="my-5">Helpful Links</h2>
+          <h2 class="my-3">Helpful Links</h2>
           <ul class="list-unstyled">
             <li>Services</li>
             <li>More Search</li>
@@ -48,7 +48,7 @@
           </ul>
         </div>
         <div class="col-md-3 col-sm-6">
-          <h2 class="my-5">subscribe</h2>
+          <h2 class="my-3">subscribe</h2>
           <ul class="list-unstyled">
             <li>Services</li>
             <li>More Search</li>
@@ -66,20 +66,7 @@
 </template>
 
 <script>
-// Import Swiper Vue.js components
-// import { Swiper, SwiperSlide } from "swiper/vue";
 
-// Import Swiper styles
-// import "swiper/swiper.scss";
-
-// import "swiper/components/pagination/pagination.min.css";
-
-// import "./style.css";
-
-// export default {
-//     components: {Swiper, SwiperSlide},
-
-// };
 </script>
 
 <style scoped>
@@ -93,8 +80,8 @@ h2::after {
 footer {
   padding: 40px 10px;
   /* background: #273649; */
-  /*     
-    color:var(--main-color); */
+      
+    /* color:var(--main-color); */
 }
 
 footer h3 {

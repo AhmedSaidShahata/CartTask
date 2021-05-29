@@ -43,10 +43,17 @@
     </div>
 </template>
 <style scoped>
+
+.choose{
+ /* background: #273649; */
+
+}
 .choosing {
   padding: 20px 10px;
   background: #f4f4f4;
 }
+
+ 
 .choosing p:first-of-type {
   font-size: 20px;
 }

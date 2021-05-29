@@ -54,7 +54,8 @@
 </template>
 <style scoped>
 .describtion {
-  padding: 59px 10px;
+  padding: 90px 10px;
+  /* color:white; */
   /* background: var(--main-color); */
 }
 

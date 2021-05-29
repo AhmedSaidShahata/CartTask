@@ -13,15 +13,14 @@
 <script>
 import AppHeader from "./components/AppHeader";
 import AppFooter from "./components/AppFooter";
-import Preloader from "./components/Preloader";
+
 
 
 export default {
   name: "app",
   components: {
     AppHeader,
-    AppFooter,
-    Preloader
+    AppFooter
   },
 };
 </script>
@@ -48,7 +47,7 @@ h2::after{
   width: 60px;
   background:var(--main-color);
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   border-radius: 20px;
 }
 
