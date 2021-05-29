@@ -2,7 +2,7 @@
      <div
       class="view-more d-flex justify-content-center align-items-center flex-column "
     >
-      <p class="mb-3">Shop Pepperfry Sofas</p>
+      <p class="mb-5">Shop Pepperfry Sofas</p>
       <button class="btn btn-dark">
         View More
       </button>
