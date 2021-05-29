@@ -18,7 +18,7 @@
               </div>
               <strong>{{ item.product.title }}</strong>
               <br />
-              {{ item.quantity }} x {{ item.product.price }}
+              {{ item.quantity }} x {{ item.product.price }} $
             </div>
             <div>
               <button
