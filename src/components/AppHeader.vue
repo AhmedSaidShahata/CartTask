@@ -5,9 +5,10 @@
         <div class="nav navbar-nav">
           <img
             class="logo"
-            src="https://image.pngaaa.com/579/811579-small.png"
+            src="https://www.pngkey.com/png/detail/251-2510486_logo-ecom-e-commerce-logo.png"
           />
         </div>
+        
         <div class="col-md-8 d-none d-md-block ">
           <form class="form-inline my-2 my-lg-0">
             <div class="form-group col-md-2 p-0">
