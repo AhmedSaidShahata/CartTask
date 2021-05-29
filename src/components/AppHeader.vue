@@ -23,7 +23,7 @@
               <input
                 class="search w-75 form-control mr-sm-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Search..."
                 aria-label="Search"
               />
               <button
