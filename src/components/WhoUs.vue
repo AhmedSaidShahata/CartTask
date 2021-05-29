@@ -2,7 +2,7 @@
      <section class="who_us py-5 text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="box">
                         <div class="custom_border"></div>
                         <div class="face face1">
@@ -23,7 +23,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <h2 class="my-3">About <span>us</span></h2>
                  
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, fugit in? Dolorum, sit eum quaerat totam voluptates illum magnam mollitia, ut corporis tempore facere a eaque optio provident aliquam repellendus.</p>

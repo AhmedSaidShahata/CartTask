@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="navbar navbar-expand py-2">
-      <div class="container-fluid px-5">
+      <div class="container-fluid px-1 px-md-5">
         <div class="nav navbar-nav">
           <img
             class="logo"
