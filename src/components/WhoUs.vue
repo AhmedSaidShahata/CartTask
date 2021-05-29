@@ -1,5 +1,5 @@
 <template>
-     <section class=" who_us py-5 text-center">
+     <section class="who_us py-5 text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -36,7 +36,7 @@
     </section>
 </template>
 
-<style scoped>
+<style >
 
 .who_us {
   /* color: white; */
@@ -49,18 +49,11 @@
   color: var(--main-color);
   font-size: 40px;
   font-weight: bolder;
+   text-shadow:  1px 1px 1px red , 1px 1px 1px blue, 2px 2px 2px black , -2px -2px 2px white;
 }
 
 .who_us h2 span {
   color:black;
-}
-.who_us hr {
-  background-color: white;
-  width: 10%;
-  height: 5px;
-}
-
-.who_us p {
 }
 
 .who_us .row > div:last-of-type {

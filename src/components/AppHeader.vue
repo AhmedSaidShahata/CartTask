@@ -37,7 +37,7 @@
         <div>
           <div class="dropdown open">
             <button
-              class="btn btn-secondary dropdown-toggle py-3"
+              class="btn btn-secondary dropdown-toggle py-2"
               type="button"
               id="triggerId"
               data-toggle="dropdown"

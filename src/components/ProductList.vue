@@ -1,5 +1,6 @@
 <template>
   <div class="py-5 products">
+    <h2 class="my-3 text-center">Pro<span>ducts</span></h2>
     <div class="container">
       <div class="header-products row justify-content-between">
         <div class="col-md-7 px-0">
@@ -74,12 +75,7 @@
 </template>
 
 <script>
-// import ProductCard from "./ProductCard";
 export default {
-  components: {
-    // ProductCard,
-  },
-
   methods: {
     addToCart(product, index) {
       let productImage = document.createElement("img");
@@ -123,9 +119,8 @@ export default {
 
 <style>
 .products {
-  /* background: linear-gradient(-45deg, #273649 60%, var(--main-color) 40%);
+  background: linear-gradient(45deg, white 91%, var(--main-color) 35%);
   border-top: 70px solid var(--main-color);
-  border-bottom: 70px solid var(--main-color); */
 }
 
 .header-products {
@@ -143,13 +138,24 @@ export default {
 .header-products .filter p.active {
   color: black !important;
 }
+.products h2 {
+  color: var(--main-color);
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 50px !important;
+  text-shadow:  1px 1px 1px red , 1px 1px 1px blue, 2px 2px 2px black , -2px -2px 2px white;
+}
+
+.products h2 span {
+  color: black;
+}
 .deal::after {
   content: "";
   display: block;
   margin: 0;
-  background: #e4b16a;
+  background: orange;
   width: 100px;
-  height: 2px;
+  height: 3px;
   position: relative;
   top: 19px;
 }

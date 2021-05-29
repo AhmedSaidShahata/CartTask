@@ -15,10 +15,12 @@
     url(https://images.pexels.com/photos/845434/pexels-photo-845434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center;
   background-size: cover;
-  height: 400px;
+  height: 500px;
   background-attachment: fixed;
 
 }
+
+
 .view-more p {
   font-size: 50px;
   color: var(--main-color);
