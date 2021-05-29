@@ -23,7 +23,7 @@
       </div>
       <div class="row justify-content-center">
         <div
-          class="col-xl-3 col-lg-4 col-sm-6 col-9 mt-4"
+          class="col-xl-3 col-lg-4 col-md-6 col-9 mt-4"
           v-for="(product, index) in products"
           :key="product.id"
         >
