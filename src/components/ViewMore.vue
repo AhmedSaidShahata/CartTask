@@ -17,6 +17,8 @@
   background-size: cover;
   height: 500px;
   background-attachment: fixed;
+      border-radius: 273px 64px 271px 64px;
+    box-shadow: 0px 0px 10px;
 
 }
 
