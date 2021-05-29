@@ -1,6 +1,6 @@
 <template>
   <div>
-    <preloader />
+    <preloader/>
     <div class="row product mt-5" v-if="product">
       <div class="col-lg-4 col-md-6">
         <img class="w-100" :src="product.image" />

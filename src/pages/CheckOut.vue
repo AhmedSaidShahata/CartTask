@@ -10,7 +10,7 @@
         <p>No Products Yet</p>
       </div>
       <div v-else>
-        <div v-for="item in cart" :key="item.product.id">
+        <div class="mb-5"  v-for="item in cart" :key="item.product.id">
           <div class="border-bottom">
             <div>
               <div>
@@ -23,7 +23,7 @@
             <div>
               <button
                 @click.prevent="clearProductFromCart(item.product)"
-                class="btn btn-danger text-white px-3 py-0 mb-1 "
+                class="btn btn-danger text-white px-3 py-0 mb-5 "
               >
                 remove
               </button>
@@ -65,7 +65,7 @@ export default {
 
 <style scoped>
 .checkout {
-  height: 100vh;
+  min-height: 100vh;
 }
 .heading::after {
   content: "";
