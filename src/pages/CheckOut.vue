@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container checkout">
     <h2 class="text-center heading">CheckOut Cart</h2>
     <div v-if="cart.length == 0" class="mt-5 d-flex justify-content-center alert alert-danger">
       <p>No Products Yet</p>
@@ -53,7 +53,11 @@ export default {
 };
 </script>
 
-<style>
+<style  scoped>
+
+.checkout{
+height: 100vh;
+}
 .heading::after {
   content: "";
   width: 140px;

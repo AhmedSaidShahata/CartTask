@@ -15,15 +15,15 @@
       <div>
         <div>
           <hr />
-          <img class="product-img" :src="item.product.image" />
+          <img class="product-img mr-2" :src="item.product.image" />
           <strong>{{ item.product.title }}</strong>
           <br />
-          {{ item.quantity }} x {{ item.product.price }}
+          {{ item.quantity }} x {{ item.product.price }} $
         </div>
         <div>
           <button
             @click.prevent="clearProductFromCart(item.product)"
-            class="btn btn-danger text-white py-2 py-0 mb-1 "
+            class="btn btn-danger text-white  py-0 mb-1 "
           >
             remove
           </button>
@@ -66,7 +66,7 @@ export default {
 
 <style>
 .product-img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 </style>
